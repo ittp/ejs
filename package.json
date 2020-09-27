@@ -1,5 +1,5 @@
 {
-  "name": "@stfy/react-editor.js",
+  "name": "ittp/react-editor.js",
   "version": "1.0.3",
   "description": "React wrapper component for Editor.js",
   "main": "dist/react-editorjs.js",
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/stfy/react-editor.js"
+    "url": "https://github.com/ittps/ejs"
   },
   "author": "Semenyuk Timofey <timsql@yandex.ru>",
   "license": "MIT",
@@ -41,8 +41,9 @@
     "react": "^16.x"
   },
   "dependencies": {
-    "@editorjs/editorjs": "^2.12.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@editorjs/editorjs": "latest",
+    "@editorjs/table": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
